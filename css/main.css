@@ -77,5 +77,28 @@
                margin-right: 5%;
                width: 90%;
             }
+      
+      .content {
+         background-color: #fff;
+         padding-top: 60px;
+         padding-bottom: 60px;  
+         
+      }
+         .content > .row  {
+            display: inline-block;
+            width: 1000px;
+            margin-left: calc( (100% - 1000px) / 2 );
+            margin-right: calc( (100% - 1000px) / 2 );           
+         }
+            .content > .row > .left {
+               display: inline-block;
+               width: 50%;
+               float: left;           
+            }
+            .content > .row > .right {
+               display: inline-block;
+               width: 40%;
+               float: right;
+            }
 
 
