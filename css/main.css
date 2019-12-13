@@ -1,13 +1,13 @@
-.container{
+.container {
     display: inline-block;
     width: 100%;
 }
 
-.bg-blue{    
+.bg-blue {    
     background-color: #03a9f3;
 }
 
-.hero{
+.hero {
     padding-top: 80px;
     padding-bottom: 40px;
     background-image: url(../img/Hero_fonas.png);
@@ -15,18 +15,18 @@
     background-size: cover;
 }
 
-    .hero > .row{
+    .hero > .row {
         display: inline-block;
         width: 600px;
         text-align: center;
         margin-left: calc((100% - 600px) / 2);        
         margin-right: calc((100% - 600px) / 2);
     }
-            .hero > .row > img{
+            .hero > .row > img {
                 display: inline-block;
                 margin-bottom: 60px;
         }
-            .hero > .row > h1{
+            .hero > .row > h1 {
                 display: inline-block;
                 width: 100%;
                 margin-bottom: 20px;
@@ -36,7 +36,7 @@
                 font-family: arial;
                 color: #000;
             }
-            .hero > .row > p{
+            .hero > .row > p {
                 display: inline-block;
                 width: 100%;
                 margin-bottom: 60px;
@@ -46,24 +46,69 @@
                 line-height: 30px;
                 color: #777;
             }
-            .hero > .row > .clock{
+            .hero > .row > .clock {
                 display: inline-block;
                 width: 100%; 
                 margin-bottom: 60px;
             }
-            .hero > .row > form{
+            .hero > .row > form {
                 display: inline-block;
                 width: 90%;    
                 margin-left: 5%;
                 margin-right: 5%;        
                 margin-bottom: 20px;
             }
-            .hero > .row > .mouse{
+            .hero > .row > .mouse {
                 display: inline-block;
                 width: 100%; 
             }
-    /* .left{
-        display: inline-block;
-        width: 600px; */
 
+.content {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #fff;
+}
+    .content > .row {
+        display: inline-block;
+        width: 1000px;
+        margin-left: calc((100% - 1000px) / 2);
+        margin-right: calc((100% - 1000px) / 2);
+        background-color: pink;
     }
+        .content > .row > .left {
+            display: inline-block;
+            width: 50%;
+            padding-left: 20px;
+            float: left;
+            background-color: yellow;
+        }
+        .content > .row > .right {
+            display: inline-block;
+            width: 40%;
+            padding-right: 20px;
+            float: right;
+            background-color: aquamarine;
+        }
+            .content > .row h3 {
+                display: inline-block;
+                width: 100%;
+                margin-bottom: 20px;
+                font-size: 20px;
+                line-height: 25px;
+                text-transform: uppercase;
+                color: #000;
+            }
+            .content > .row p {
+                display: inline-block;
+                width: 100%;
+                margin-bottom: 20px;
+                font-size: 16px;
+                line-height: 20px;
+                color: #ccc;
+            }
+            .content > .row p > a {
+                color: fuchsia;
+                text-decoration: none;
+            }
+            
+            
