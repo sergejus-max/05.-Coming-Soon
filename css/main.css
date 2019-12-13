@@ -1,104 +1,69 @@
- /* .container {
+.container{
     display: inline-block;
     width: 100%;
- }
+}
 
- .bg-blue {
-     background-color: #03A9F3;
- }
+.bg-blue{    
+    background-color: #03a9f3;
+}
 
- .hero {
-    display: inline-block;
- }
-    .hero > .row {
+.hero{
+    padding-top: 80px;
+    padding-bottom: 40px;
+    background-image: url(../img/Hero_fonas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .hero > .row{
         display: inline-block;
         width: 600px;
-        margin-left: calc( ( 100% - 600ps) / 2 );
-    } */
+        text-align: center;
+        margin-left: calc((100% - 600px) / 2);        
+        margin-right: calc((100% - 600px) / 2);
+    }
+            .hero > .row > img{
+                display: inline-block;
+                margin-bottom: 60px;
+        }
+            .hero > .row > h1{
+                display: inline-block;
+                width: 100%;
+                margin-bottom: 20px;
+                font-size: 55px;
+                line-height: 55px;
+                text-transform: uppercase;
+                font-family: arial;
+                color: #000;
+            }
+            .hero > .row > p{
+                display: inline-block;
+                width: 100%;
+                margin-bottom: 60px;
+                padding-left: 20px;
+                padding-right: 20px;
+                font-size: 22px;
+                line-height: 30px;
+                color: #777;
+            }
+            .hero > .row > .clock{
+                display: inline-block;
+                width: 100%; 
+                margin-bottom: 60px;
+            }
+            .hero > .row > form{
+                display: inline-block;
+                width: 90%;    
+                margin-left: 5%;
+                margin-right: 5%;        
+                margin-bottom: 20px;
+            }
+            .hero > .row > .mouse{
+                display: inline-block;
+                width: 100%; 
+            }
+    /* .left{
+        display: inline-block;
+        width: 600px; */
 
-      .container {         /*{   block section - родительский блок для нескольких больши блоков */
-       display: inline-block;
-       width: 100%;
-      }
-
-      .bg-blue {
-         background-color: #03A9F3;
-      }
-
-      .hero {
-         padding-top: 80px;
-         padding-bottom: 40px;
-         background-image: url(../img/Hero_fonas.png);
-         background-size: cover;
-      }
-
-         .hero > .row {
-            display: inline-block;
-            width: 600px;
-            margin-left: calc( (100% - 600px) / 2 );     
-            text-align: center;
-         }
-            .hero > .row img {
-               display: inline-block;
-               margin-bottom: 60px;
-               
-            }
-            
-            .hero > .row h1 {
-               color: #000;
-               display: inline-block;
-               font-size: 55px;
-               line-height: 55px;
-               margin-bottom: 20px;
-               text-transform: uppercase;
-               width: 100%;
-            }
-            
-            .hero > .row p {
-               display: inline-block;              
-               color: #777 ;
-               font-size: 20px;
-               line-height: 30px;
-               margin-bottom: 20px;
-               padding: 20px;
-               width: 100%;
-            }
-            
-            .hero > .row .clock { 
-               display: inline-block;
-               margin-bottom: 60px;
-               width: 100%;
-            }
-                        
-            .hero > .row .form { 
-               display: inline-block;
-               margin-bottom: 20px;
-               margin-left: 5%;
-               margin-right: 5%;
-               width: 90%;
-            }
-      
-      .content {
-         background-color: #fff;
-         padding-top: 60px;
-         padding-bottom: 60px;  
-         
-      }
-         .content > .row  {
-            display: inline-block;
-            width: 1000px;
-            margin-left: calc( (100% - 1000px) / 2 );
-            margin-right: calc( (100% - 1000px) / 2 );           
-         }
-            .content > .row > .left {
-               display: inline-block;
-               width: 50%;
-               float: left;           
-            }
-            .content > .row > .right {
-               display: inline-block;
-               width: 40%;
-               float: right;
-            }
-
-
+    }
